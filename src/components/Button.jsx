@@ -25,7 +25,7 @@ const Button = () => {
           />
         </audio>
 
-        <button onClick={handleTogglePlay} className="play-button inline-block min-w-[6rem] bg-primary text-base text-text relative px-8 py-4 rounded-xl">
+        <button onClick={handleTogglePlay} className="play-button inline-block min-w-[6rem] bg-primary text-base text-text transition duration-500 ease-in-out hover:bg-gradient-to-r from-primary via-purple-500 to-pink-500 relative px-8 py-4 rounded-xl">
           {isPlaying ? "Pauza" : "Pusti si ma"}
         </button>
 
